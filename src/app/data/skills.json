@@ -1,0 +1,39 @@
+[
+    {
+        "category": "Languages",
+        "items": [
+            "C#",
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS"
+        ]
+    },
+    {
+        "category": "Frameworks & Libraries",
+        "items": [
+            "React",
+            "React Native",
+            "Next.js",
+            ".NET",
+            "Tailwind CSS"
+        ]
+    },
+    {
+        "category": "Tools & Databases",
+        "items": [
+            "SQL Server",
+            "Supabase (Edge functions, PostgreSQL, Auth)",
+            "Git/GitHub",
+            "Figma"
+        ]
+    },
+    {
+        "category": "Practices",
+        "items": [
+            "TDD",
+            "OOP",
+            "Agile",
+            "User-Driven Development"
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Software Developer Intern",
+        "company": "Ottawa Area ISD",
+        "date": "Oct 2024 – Present",
+        "bullets": [
+            "Developed and enhanced reporting tools with chart views and export to PDF, CSV, and image formats.",
+            "Added role-switching with cookie-based state management.",
+            "Developed full-stack features using C#, SQL Server, React, and Next.js with TDD (Jest & Cypress)."
+        ]
+    },
+    {
+        "title": "C# .NET Full Stack Development Bootcamp",
+        "company": "Grand Circus",
+        "date": "April 2024 - July 2024",
+        "bullets": [
+            "Completed full-time immersive program with daily instruction and labs.",
+            "Collaborated on 3 major projects: a console app and two full stack group projects.",
+            "Worked with SQL Server, C#, .NET, Angular, and Bootstrap across multiple projects throughout the bootcamp."
+        ]
+    },
+    {
+        "title": "Figma UX/UI Design Essentials",
+        "company": "Udemy",
+        "date": "April 2023 - June 2023",
+        "bullets": [
+            "Udemy course covering design thinking, wireframing, and prototyping tools."
+        ]
+    },
+    {
+        "title": "Other Experience",
+        "company": "Bartender & Server (2018—2024)",
+        "date": "Various restaurants",
+        "bullets": [
+            "Developed soft skills in customer interaction, time management, and team collaboration under pressure."
+        ]
+    }
+]

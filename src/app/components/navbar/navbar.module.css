@@ -1,0 +1,105 @@
+.nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8rem);
+  z-index: 10000;
+}
+
+.container {
+  max-width: 60dvw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Satoshi-Bold, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  color: #f2f1fa;
+  text-decoration: none;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.links a {
+  color: #f2f1fa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #b48eff;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: #f2f1fa;
+    cursor: pointer;
+  }
+
+.exit {
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+    border: none;
+    color: #f2f1fa;
+    cursor: pointer;
+}
+  
+  .sideMenu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: #0a0118;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    z-index: 9999;
+  }
+  
+  .sideMenu.open {
+    right: 0;
+  }
+  
+  .sideMenu a {
+    color: #f2f1fa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .sideMenu a:hover {
+    color: #b48eff;
+  }
+
+  .list {
+    list-style-type: none
+  }
+  
+  @media (max-width: 768px) {
+    .links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+
+  }

@@ -1,0 +1,36 @@
+.button {
+  margin-top: 2rem;
+  background-color: #a379f9;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  padding: .75rem 2.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  font-family: Satoshi-Medium;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  box-shadow: 0 0 0 transparent;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #9b7eff;
+
+  box-shadow: 0 0 12px 4px rgba(162, 141, 255, 0.4);
+  transform: scale(1.02);
+}
+
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  stroke-width: 2.25;
+}

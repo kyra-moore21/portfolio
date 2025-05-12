@@ -1,0 +1,77 @@
+@import './fonts/satoshi/css/satoshi.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #f2f1fa; 
+  font-family: Satoshi-Regular;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 6rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a379f9;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+.stackBackground {
+  background-color: rgba(255, 255, 255, 0.035);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 0.25rem solid #a394d7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stackBackground:hover {
+  box-shadow: 0 0 25px rgba(165, 141, 255, 0.2);
+  transform: translateY(-2px);
+  transition: all 0.25s ease;
+}
+
+.container {
+  width: 100%;
+  max-width: 85dvw;
+  margin: auto;
+  padding-inline: clamp(1rem, 4vw, 3rem);
+}
+
+.icon {
+  animation: twinkle 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+

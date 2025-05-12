@@ -1,0 +1,66 @@
+.heroContainer {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0; 
+
+  font-family: Satoshi-Black;
+}
+
+.title, .titleSecondary {
+    font-size: clamp(2rem, 7vw, 5rem);
+    line-height: 1;
+}
+
+.titleSecondary {
+    margin-left: 1rem;
+    color: #c4b6f7;
+}
+
+.aboutMe {
+    margin-top: 1rem;
+    max-width: 600px;
+    font-size: clamp(.75rem, 4vw, 1.5rem);
+    line-height: 1.6;
+}
+
+.soundButton {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.soundButton:hover,
+.soundButton:focus {
+  transform: scale(1.15);
+  opacity: 0.9;
+}
+
+.soundButton svg {
+  color: #f2f1fa;
+}
+
+@media (max-width: 480px) {
+  .heroContainer {
+    min-height: 0;
+    justify-content: flex-start;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  }
+}
