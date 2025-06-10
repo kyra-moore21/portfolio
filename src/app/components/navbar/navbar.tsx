@@ -28,7 +28,7 @@ export default function Navbar() {
                 <button className={styles.exit} onClick={() => setMenuOpen(!menuOpen)}><X size={24} /></button>
                 <ul className={styles.list}>
                     <li><a onClick={() => setMenuOpen(false)} href="#home">Home</a></li>
-                    <li><a onClick={() => setMenuOpen(false)} href="#about">About</a></li>
+                    <li><a onClick={() => setMenuOpen(false)} href="#about">Experience</a></li>
                     <li><a onClick={() => setMenuOpen(false)} href="#projects">Projects</a></li>
                     <li><a onClick={() => setMenuOpen(false)} href="#contact">Contact</a></li>
                 </ul>

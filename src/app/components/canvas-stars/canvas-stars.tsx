@@ -1,4 +1,3 @@
-// components/star-background/star-background.tsx
 "use client";
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
